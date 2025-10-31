@@ -141,7 +141,7 @@ const Invitacion = () => {
             claseButton="border-2 text-white py-3 px-6 border-white bg-transparent font-semibold hover:border-gray-700 hover:text-gray:800"
             linkAsistencia="https://docs.google.com/forms/d/e/1FAIpQLSdH0qUGUlmfnGMsNIlEfj_k9JQkvYrZJxqFHgmMIOTQAih3Sw/viewform?usp=publish-editor"
           />
-        <TextoFinal textoFinal={<p>Por favor, traer bebida. <br /> <br />¡Gracias por venir!</p>}/>
+        <TextoFinal textoFinal={<p>Traer bebida. <br /> <br />¡Gracias! Te esperamos.</p>}/>
         <Footer />
       </div>
     </div>

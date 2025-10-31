@@ -1,4 +1,4 @@
-// import copas from '../assets/copas.svg'
+import copas from '../assets/copas.svg'
 import rings from '../assets/rings.svg'
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -24,8 +24,11 @@ const Places = ({ salon, hora_civil}) => {
           
         </div> */}
         <div className=' flex flex-col justify-center items-center gap-y-3' data-aos= 'fade-left'>
-          <img src={rings} alt="" className='size-40'/>
-          <h2 className='text-center font-semibold text-xl tracking-wider'>CEREMONIA, CIVIL Y FIESTA</h2>
+          <div className='flex items-center'>
+            <img src={rings} alt="" className='size-40'/>
+            <img src={copas} alt="" className='size-40'/>
+          </div>
+          <h2 className='text-center font-semibold text-xl tracking-wider'>CIVIL, CEREMONIA Y FIESTA</h2>
           <p className='font-extralight text-lg text-center px-5 text-gray-700'>Se realizará en <strong>{salon}</strong> a las <strong>{hora_civil}</strong></p>
           
         </div>
