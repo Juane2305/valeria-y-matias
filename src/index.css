@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-modernaText: "Quicksand", sans-serif;
+  --font-vintageText: "Cormorant Infant", serif;
+  --font-eleganteTitle: "Tangerine", cursive;
+}
